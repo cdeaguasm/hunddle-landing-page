@@ -17,7 +17,37 @@
   --pale-blue: hsl(207, 100%, 98%);
 }
 
-img {
-  width: 100%;
-  height: auto;
+a {
+  text-decoration: none;
+}
+
+/*Header*/
+.container-header {
+  padding: 1.6em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: "Poppins", sans-serif;
+}
+
+.img-logo {
+  width: 24px;
+}
+
+.header-title {
+  display: inline-block;
+  font-weight: 700;
+}
+
+.btn-free {
+  display: flex;
+  min-width: 120px;
+  border-radius: 16px;
+  color: var(--light-pink);
+  background-color: white;
+  border: 1px solid var(--light-pink);
+  align-items: center;
+  justify-content: center;
 }
